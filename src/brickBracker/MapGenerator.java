@@ -3,9 +3,9 @@ package brickBracker;
 import java.awt.*;
 
 public class MapGenerator {
-    public int map[][];
-    public int brickWidth;
-    public int brickHeight;
+    private int map[][];
+    private int brickWidth;
+    private int brickHeight;
     public MapGenerator(int row, int col){
         map = new int[row][col];
         for(int i = 0;i < map.length;i++){
